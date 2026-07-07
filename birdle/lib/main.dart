@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'game.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,7 +13,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World Ludwing Flutter expert!'),
+          child: Text('Hello World Ludwing Flutter developer expert!'),
         ),
       ),
     );
